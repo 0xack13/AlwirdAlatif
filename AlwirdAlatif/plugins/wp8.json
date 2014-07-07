@@ -6,6 +6,10 @@
     "config_munge": {
         "files": {}
     },
-    "installed_plugins": {},
+    "installed_plugins": {
+        "uk.co.ilee.nativetransitions": {
+            "PACKAGE_NAME": "{9402680D-BAED-4D2C-BF31-CD755AFC3C67}"
+        }
+    },
     "dependent_plugins": {}
 }

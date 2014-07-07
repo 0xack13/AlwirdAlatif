@@ -208,6 +208,15 @@
         <Content Include="www\css\index.css" />
     </ItemGroup>
     <ItemGroup>
+        <Content Include="www\css\my_css.css" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\fonts\UthmanicHafs1.otf" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\fonts\UthmanicHafs1.ttf" />
+    </ItemGroup>
+    <ItemGroup>
         <Content Include="www\img\logo.png" />
     </ItemGroup>
     <ItemGroup>
@@ -215,5 +224,11 @@
     </ItemGroup>
     <ItemGroup>
         <Content Include="www\js\index.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\js\nativetransitions.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\plugins\uk.co.ilee.nativetransitions\www\nativetransitions.js" />
     </ItemGroup>
 </Project>

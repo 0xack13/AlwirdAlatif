@@ -1,6 +1,6 @@
-﻿<xapCache source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="7/7/2014 1:22:41 PM">
-  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\obj\Debug\io.cordova.hellocordova.dll" archivePath="io.cordova.hellocordova.dll" lastWriteTime="7/7/2014 1:22:40 PM" />
-  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\config.xml" archivePath="config.xml" lastWriteTime="7/7/2014 1:22:39 PM" />
+﻿<xapCache source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="7/7/2014 5:40:07 PM">
+  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\obj\Debug\io.cordova.hellocordova.dll" archivePath="io.cordova.hellocordova.dll" lastWriteTime="7/7/2014 5:40:06 PM" />
+  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\config.xml" archivePath="config.xml" lastWriteTime="7/7/2014 5:40:01 PM" />
   <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\Images\appbar.back.rest.png" archivePath="Images\appbar.back.rest.png" lastWriteTime="7/7/2014 12:15:06 PM" />
   <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\Images\appbar.close.rest.png" archivePath="Images\appbar.close.rest.png" lastWriteTime="7/7/2014 12:15:06 PM" />
   <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\Images\appbar.feature.video.rest.png" archivePath="Images\appbar.feature.video.rest.png" lastWriteTime="7/7/2014 12:15:06 PM" />
@@ -8,14 +8,19 @@
   <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\Images\appbar.save.rest.png" archivePath="Images\appbar.save.rest.png" lastWriteTime="7/7/2014 12:15:06 PM" />
   <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\Images\appbar.stop.rest.png" archivePath="Images\appbar.stop.rest.png" lastWriteTime="7/7/2014 12:15:06 PM" />
   <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="7/7/2014 12:15:06 PM" />
-  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\cordova.js" archivePath="www\cordova.js" lastWriteTime="7/7/2014 1:22:39 PM" />
-  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\cordova_plugins.js" archivePath="www\cordova_plugins.js" lastWriteTime="7/7/2014 1:22:39 PM" />
-  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\css\index.css" archivePath="www\css\index.css" lastWriteTime="7/7/2014 1:22:39 PM" />
-  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\img\logo.png" archivePath="www\img\logo.png" lastWriteTime="7/7/2014 1:22:39 PM" />
-  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\index.html" archivePath="www\index.html" lastWriteTime="7/7/2014 1:22:39 PM" />
-  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\js\index.js" archivePath="www\js\index.js" lastWriteTime="7/7/2014 1:22:39 PM" />
-  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="7/7/2014 1:22:41 PM" />
+  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\cordova.js" archivePath="www\cordova.js" lastWriteTime="7/7/2014 5:40:01 PM" />
+  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\cordova_plugins.js" archivePath="www\cordova_plugins.js" lastWriteTime="7/7/2014 5:40:01 PM" />
+  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\css\index.css" archivePath="www\css\index.css" lastWriteTime="7/7/2014 5:40:01 PM" />
+  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\css\my_css.css" archivePath="www\css\my_css.css" lastWriteTime="7/7/2014 5:40:01 PM" />
+  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\fonts\UthmanicHafs1.otf" archivePath="www\fonts\UthmanicHafs1.otf" lastWriteTime="7/7/2014 5:40:01 PM" />
+  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\fonts\UthmanicHafs1.ttf" archivePath="www\fonts\UthmanicHafs1.ttf" lastWriteTime="7/7/2014 5:40:01 PM" />
+  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\img\logo.png" archivePath="www\img\logo.png" lastWriteTime="7/7/2014 5:40:01 PM" />
+  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\index.html" archivePath="www\index.html" lastWriteTime="7/7/2014 5:40:01 PM" />
+  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\js\index.js" archivePath="www\js\index.js" lastWriteTime="7/7/2014 5:40:01 PM" />
+  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\js\nativetransitions.js" archivePath="www\js\nativetransitions.js" lastWriteTime="7/7/2014 5:40:01 PM" />
+  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\www\plugins\uk.co.ilee.nativetransitions\www\nativetransitions.js" archivePath="www\plugins\uk.co.ilee.nativetransitions\www\nativetransitions.js" lastWriteTime="7/7/2014 5:40:01 PM" />
+  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="7/7/2014 2:19:01 PM" />
   <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="7/7/2014 12:15:06 PM" />
   <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="7/7/2014 12:15:06 PM" />
-  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="7/7/2014 1:22:41 PM" />
+  <file source="D:\DevCode\0xack13\AlwirdAlatif\Alwirdalatif\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="7/7/2014 2:19:01 PM" />
 </xapCache>
