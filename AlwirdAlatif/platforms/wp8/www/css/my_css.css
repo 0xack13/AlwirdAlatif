@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "KFGQPCUthmanicScriptHAFS";
-    src: url("../fonts/UthmanicHafs1.otf") format("opentype");   
+    font-family: "KFGQPC Uthmanic Script HAFS";
+    src: url("UthmanicHafs1.ttf") format("opentype");   
         /* Make sure you defined the correct path, which is related to
             the location of your file `my_css.css` */ 
     }
@@ -11,10 +11,11 @@
 		-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
 		-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
 		-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-        font-family: "KFGQPCUthmanicScriptHAFS" !important;
         font-size:19px;
         color: yellow;
         text-align: center;
+        font-family: "KFGQPC Uthmanic Script HAFS" !important;
+        font-weight: normal !important;
     }
     h1 {
     	text-align: center;
