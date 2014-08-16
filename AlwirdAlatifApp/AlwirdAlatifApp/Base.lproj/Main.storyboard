@@ -16,23 +16,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="sUI-mh-0G6" appends="YES" id="IwC-5Y-vSR"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="VCE-m9-9j2">
                         <barButtonItem key="rightBarButtonItem" title="Next" id="ydf-Y2-ccx">
                             <connections>
-                                <segue destination="Lcm-KU-r18" kind="push" id="dXe-8P-ztp"/>
+                                <segue destination="Lcm-KU-r18" kind="push" identifier="one" id="dXe-8P-ztp"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="sUI-mh-0G6">
+                    <connections>
+                        <segue destination="Lcm-KU-r18" kind="push" id="mP9-YX-ad2"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="799" y="112"/>
         </scene>
-        <!--View Controller-->
+        <!--Page One View Controller-->
         <scene sceneID="wfK-Wo-xcA">
             <objects>
-                <viewController id="Lcm-KU-r18" sceneMemberID="viewController">
+                <viewController id="Lcm-KU-r18" customClass="PageOneViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sHz-Ii-QrW"/>
                         <viewControllerLayoutGuide type="bottom" id="wEg-cg-A1H"/>
@@ -40,12 +49,12 @@
                     <view key="view" contentMode="scaleToFill" id="Im7-R9-x7P">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.81944215639999995" green="1" blue="0.085999338319999993" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="ESv-sE-fMl">
                         <barButtonItem key="rightBarButtonItem" title="Next" id="8S5-Gt-jqX">
                             <connections>
-                                <segue destination="NDf-7m-wPt" kind="push" id="VvG-5m-k2L"/>
+                                <segue destination="NDf-7m-wPt" kind="push" identifier="two" id="VvG-5m-k2L"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -54,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="1258" y="101"/>
         </scene>
-        <!--View Controller-->
+        <!--Page Two View Controller-->
         <scene sceneID="sMC-rY-Hwa">
             <objects>
-                <viewController id="NDf-7m-wPt" sceneMemberID="viewController">
+                <viewController id="NDf-7m-wPt" customClass="PageTwoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PZj-iE-nq8"/>
                         <viewControllerLayoutGuide type="bottom" id="54f-c8-wgO"/>
@@ -97,4 +106,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="mP9-YX-ad2"/>
+    </inferredMetricsTieBreakers>
 </document>
