@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <wird>
 	<WirdContent index="1" repeat="1" type="aya">
-		<content index="1" text="سبحان الله وبحمده" />
+    <content index="1" text="بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ" />
+    <content index="2" text="الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ" />
+    <content index="3" text="الرَّحْمَنِ الرَّحِيمِ" />
+    <content index="4" text="مَالِكِ يَوْمِ الدِّينِ" />
+    <content index="5" text= "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ" />
+    <content index="6" text="اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ" />
+    <content index="7" text="صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلا الضَّالِّينَ" />
 	</WirdContent>
 	<WirdContent index="1" repeat="3" type="aya">
 		<content index="1" text="سبحان الله وبحمده" />
