@@ -24,4 +24,10 @@
   <WirdContent index="1" repeat="3" type="doa">
 		<content index="1" text="سُبْحَـانَ اللهِ وبِـحَـمْـدِهِ سُــبْحَـانَ اللهِ العَظِيــم " />
 	</WirdContent>
+  <WirdContent index="1" repeat="3" type="doa">
+		<content index="1" text="رَبَّنَا اغْفِرْ لَنَا وَتُبْ عَلَيْنَا إِنّكَ أَنْتَ التُّوُّابُ الرَّحِيْم" />
+	</WirdContent>
+  <WirdContent index="1" repeat="3" type="doa">
+		<content index="1" text="اللهُمَّ صَلِّ على مُحَمَّد اللهُمَّ صَلِّ عَلَيْهِ وَسَلِّم " />
+	</WirdContent>
 </wird>
