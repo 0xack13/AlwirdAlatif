@@ -30,6 +30,15 @@
   <WirdContent index="1" repeat="3" type="doa">
 		<content index="1" text="اللهُمَّ صَلِّ على مُحَمَّد اللهُمَّ صَلِّ عَلَيْهِ وَسَلِّم " />
 	</WirdContent>
+  <WirdContent index="1" repeat="3" type="doa">
+    <content index="1" text="أعُوذُ بِكَلِمَاتِ اللهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقْ" />
+  </WirdContent>
+  <WirdContent index="1" repeat="3" type="doa">
+    <content index="1" text="بِسْمِ اللهِ الّذِي لا يَضُرُّ مَعَ اسْمِهِ شَيءٌ فِي الأرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ العَلِيم" />
+  </WirdContent>
+  <WirdContent index="1" repeat="3" type="doa">
+    <content index="1" text="رَضِيْنَا بِاللهِ رَبَّاً وَبِالإسْلامِ دِيْناً وَبِمُحَمَّدٍ نَبِيّاً" />
+</WirdContent>
 </wird>
 
 
