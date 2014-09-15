@@ -39,6 +39,13 @@
   <WirdContent index="1" repeat="3" type="doa">
     <content index="1" text="رَضِيْنَا بِاللهِ رَبَّاً وَبِالإسْلامِ دِيْناً وَبِمُحَمَّدٍ نَبِيّاً" />
 </WirdContent>
+  <WirdContent index="1" repeat="3" type="doa">
+    <content index="1" text="بِسْـمِ اللهِ وَالحَمْـدُ للهِ والخَيْـرُ وَالـشَّـرُ بِمَشِيْئَــةِ الله" />
+  </WirdContent>
+  <WirdContent index="1" repeat="3" type="doa">
+    <content index="1" text="آمَنَّــا بِاللهِ وَاليَوْمِ الآخِــرْ، تُبْنَا إلى اللهِ بَاطِـناً وَظَاهِر" />
+  </WirdContent>
+
 </wird>
 
 
