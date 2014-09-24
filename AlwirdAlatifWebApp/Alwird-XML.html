@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>سورة الكهف</title>
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <title>سورة الكهف</title>
+	<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css">
+    <link rel="stylesheet" href="arabic.css">
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script src="app.js"></script>
+      <script>
+                function convertDigitIn(enDigit){
+                    var newValue="";
+                    for (var i=0;i<enDigit.length;i++)
+                    {
+                        var ch=enDigit.charCodeAt(i);
+                        if (ch>=48 && ch<=57)
+                        {
+                            // european digit range
+                            var newChar=ch+1584;
+                            newValue=newValue+String.fromCharCode(newChar);
+                        }
+                        else
+                            newValue=newValue+String.fromCharCode(ch);
+                    }
+                    return '﴿' + newValue + '﴾';
+                }
+                function hexc(colorval) {
+                    var parts = colorval.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+                    delete(parts[0]);
+                    for (var i = 1; i <= 3; ++i) {
+                        parts[i] = parseInt(parts[i]).toString(16);
+                        if (parts[i].length == 1) parts[i] = '0' + parts[i];
+                    }
+                    color = '#' + parts.join('');
+                }                
+                $(document).ready(function()
+                      {
+                        $.get('Alwird.xml', function(d){
+                        $('body').append('<dl />');
+                 
+                        $(d).find('aya').each(function(){
+                            console.log("In each!");
+                            var $book = $(this); 
+                            var ayaText = $book.attr("text");
+                            var ayaNum = $book.attr("index");
+                 
+                            var html = '';
+                            html += '<a href="#' + ayaNum + '" class=" qdoublespaced qarabic" style="text-shadow: none;"' + '<span id="' + ayaNum + '" class="qdoublespaced qarabic"> ' + ayaText + ' ' + convertDigitIn(ayaNum) + ' </span></a>' ;
+
+                            
+                           $('#ayat').append($(html));             
+                        });
+
+                        $( "a" ).on( "click", function() {
+                          var spancolor = $( this ).css( "color" );
+                          $( this ).css( "background", "orange" );
+                          if(spancolor == 'rgb(0, 128, 0)')
+                            $( this ).css( "color", "red" );
+                          else    
+                            $( this ).css( "color", "green" );
+                        });
+
+                        var bar = $('#bar'),
+                            $window = $(window),
+                            docHeight = $(document).height();
+                            //Not working anymore. Actually, working but not perfect.
+                            //baseX = $window.height() / docHeight * 100;
+                            //bar.css('background', '-webkit-linear-gradient(left, red '+ baseX +'%, green '+ baseX +'%)');
+
+                        $window.scroll(function(e) {      
+                            // Not working, watch out
+                            //var x = $(window).scrollTop() / docHeight * 100 + baseX;
+                            //Window = the browser window that you see
+                            //Document = thw Whole HTML document
+
+                            var x = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
+                            //console.log("Windows scrolltop:" + $(window).scrollTop());
+                            //console.log("Document: " + docHeight + " - Windows: " + $window.height());
+                            console.log("x: " + x);
+                            bar.css('background', '-webkit-linear-gradient(left, red '+ x +'%, green '+ x +'%)');
+                            $('#barPer').text( Math.round(x) + "%" );
+                        });
+
+                        
+                    });
+                });
+</script>
+</head>
+<body>
+<div class="content" data-role="page" data-add-back-btn="true" data-back-btn-text="Back">
+        <div id="bar"><span id="barPer"></span></div>
+        <div data-role="header">
+            <h1 class="qdoublespaced qarabic">سورة الكهف</h1>
+        </div>
+                <div data-role="content">        
+                    <p id="ayat"></p>
+                    <div id="toTop">Back to Top</div>
+                </div>
+        <div data-role="footer">
+            <h4>صدق الله العظيم</h4>
+        </div>
+    </div>
+</div>
+</body>
+</html>
